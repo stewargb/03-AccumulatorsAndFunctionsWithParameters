@@ -4,11 +4,11 @@ This module helps you understand:
   -- the difference between PRINT and RETURN
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Grant Stewart.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 ###############################################################################
 #
-# TODO: 1.
+# Done: 1.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -47,6 +47,11 @@ def run_test_distance():
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
+    # Test 4:
+    expected = 5
+    answer = distance(rg.Point(-3,-4))
+    print('Test 4 expected:', expected)
+    print('       actual:  ', answer)
 
 def distance(point):
     """
