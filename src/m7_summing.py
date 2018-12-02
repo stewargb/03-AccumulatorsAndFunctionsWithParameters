@@ -86,7 +86,7 @@ def run_test_sum_square_roots():
     print('Testing the   sum_square_roots   function:')
     print('--------------------------------------------------')
 
-# Test 1:
+    # Test 1:
     expected = 0
     answer = sum_square_roots(0)
     print('Test 1 expected:', expected)
