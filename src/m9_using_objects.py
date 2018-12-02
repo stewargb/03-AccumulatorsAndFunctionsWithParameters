@@ -137,7 +137,7 @@ def lines():
 
     -- Waits for the user to press the mouse, then closes the window.
     """
-    # TODO: 4. Implement and test this function.
+    # Done: 4. Implement and test this function.
     window = rg.RoseWindow(400, 400)
     line1=rg.Line(rg.Point(150,200),rg.Point(250,200))
     line1.thickness = 5
